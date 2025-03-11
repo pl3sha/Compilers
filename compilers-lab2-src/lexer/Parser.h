@@ -1,0 +1,35 @@
+#ifndef PARSER_H
+#define PARSER_H
+
+enum TokenType {
+    TOKEN_CLASS = 1,
+    TOKEN_INHERITS,
+    TOKEN_IF,
+    TOKEN_THEN,
+    TOKEN_ELSE,
+    TOKEN_FI,
+    TOKEN_WHILE,
+    TOKEN_LOOP,
+    TOKEN_POOL,
+    TOKEN_LET,
+    TOKEN_IN,
+    TOKEN_CASE,
+    TOKEN_ESAC,
+    TOKEN_NEW,
+    TOKEN_ISVOID,
+    TOKEN_NOT,
+    TOKEN_TRUE,
+    TOKEN_FALSE,
+    TOKEN_LEQ,
+    TOKEN_GEQ,
+    TOKEN_EQ,
+    TOKEN_LT,
+    TOKEN_GT,
+    TOKEN_NEG,
+    TOKEN_ARROW,
+    TOKEN_UNSIGNED_INTEGER,
+    TOKEN_STRING,
+    TOKEN_IDENTIFIER
+};
+
+#endif
